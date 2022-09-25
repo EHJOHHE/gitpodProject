@@ -25,4 +25,3 @@ def lista2():
 
 
 lista1()
-lista2()
