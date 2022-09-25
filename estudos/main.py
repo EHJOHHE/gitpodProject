@@ -1,3 +1,6 @@
+lista = []
+
+
 def lista1():
     while True:
         inserir = input('Digite oq deseja inserir: ')
@@ -19,3 +22,6 @@ def lista2():
 
         if inserir == 'sair':
             break
+
+
+lista1()
