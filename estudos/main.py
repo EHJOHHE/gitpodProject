@@ -1,5 +1,6 @@
 lista = []
 
+
 def lista1():
     while True:
         inserir = input('Digite oq deseja inserir: ')
@@ -7,7 +8,7 @@ def lista1():
 
         for i in range(0, len(lista)):
             print(lista[i])
-        
+
         if inserir == 'sair':
             break
 
