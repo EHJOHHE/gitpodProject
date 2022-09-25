@@ -1,5 +1,3 @@
-#Commit no github 'demo for git commit and push'
-
 lista = []
 
 def lista1():
@@ -14,4 +12,15 @@ def lista1():
             break
 
 
-lista1()
+def lista2():
+    while True:
+        inserir = input('Digite oq deseja inserir: ')
+        lista.append(inserir)
+
+        print(lista[0:])
+
+        if inserir == 'sair':
+            break
+
+
+lista2()
