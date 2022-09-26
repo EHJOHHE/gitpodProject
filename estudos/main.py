@@ -73,7 +73,6 @@ def dicionarioF():
 
     print(f"{'<ENCERRADO>': ^50}")
     print('-=' * 30)
-    print('ainda ta funcionando')
 
 
 dicionarioF()
