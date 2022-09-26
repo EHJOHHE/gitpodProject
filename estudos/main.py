@@ -30,8 +30,8 @@ def dicionarioF():
         pessoa['nome'] = input('Nome: ').upper()
 
         while True:
-            pessoa['sexo'] = input('Sexo: [M/F]: ').upper()[0]
-            if pessoa['sexo'] in 'MF':
+            pessoa['sexo'] = input('Sexo: [M/F/NB]: ').upper()[0]
+            if pessoa['sexo'] in 'MFNB':
                 break
             print('ERRO! Por favor digite [M] ou [F].')
 
