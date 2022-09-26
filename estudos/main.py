@@ -1,7 +1,5 @@
-lista = []
-
-
 def listaF():
+    lista = list()
     while True:
         inserir = input('\nDigite oq deseja inserir: ')
         if inserir != 'sair':
@@ -10,10 +8,10 @@ def listaF():
         '''for i in lista:
             print(i)'''
 
-        print('------' * 10)
+        print('-=' * 30)
 
         for i in range(len(lista)):
-            print(f'{i} - {lista[i]}')
+            print(f'{i + 1} - {lista[i].upper()}')
 
         if inserir == 'sair':
             break
@@ -73,6 +71,3 @@ def dicionarioF():
 
     print(f"{'<ENCERRADO>': ^50}")
     print('-=' * 30)
-
-
-dicionarioF()
