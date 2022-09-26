@@ -27,7 +27,7 @@ def dicionarioF():
     while True:
         pessoa.clear()
         print('-=' * 30)
-        pessoa['nome'] = input('Nome: ')
+        pessoa['nome'] = input('Nome: ').upper()
 
         while True:
             pessoa['sexo'] = input('Sexo: [M/F]: ').upper()[0]
