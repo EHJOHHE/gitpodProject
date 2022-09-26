@@ -12,3 +12,7 @@
 - HTML / CSS / JavaScript
 ## Repositório
 - Git / GitHub
+# Como Executar o Repositório
+```bash
+  git clone https://github.com/LeonardoAlmd/objetoEstudo.git
+```
