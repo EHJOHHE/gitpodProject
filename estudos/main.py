@@ -63,6 +63,12 @@ def dicionarioF():
     for p in pessoasCadastradas:
         if p['idade'] >= media:
             print(f'{p["nome"]}, ', end='')
+    print()
+
+    print('E) AS PESSOAS ABAIXO DA MÉDIA SÃO: ', end='')
+    for p in pessoasCadastradas:
+        if p['idade'] < media:
+            print(f'{p["nome"]}, ', end='')
     print('\n\n')
 
     print(f"{'<ENCERRADO>': ^50}")
